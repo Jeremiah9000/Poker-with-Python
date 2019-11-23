@@ -3,7 +3,44 @@ Texas Holdem Poker made with Python
 
 download the "cards" folder and the .py file in the Poker/Poker dir and make sure they are both in the same directory when you launch the .py file.
 
-I am cleaning up and modulating this project, so if you want to see a working version of this follow instructions above and ignore the other files.
+Some information about how I handled scoring:
+  
+        #  scores for an individual player will look like:
+        #  [score0, score1, score2, score3, score4, score5, score6, score7]
+        #  a score, like score0, will be an integer
+        #
+        #  I put all scores from all players in a list
+        #  so we will have a list of lists of integers, representing scores from all players
+        #
+        #  I take advantage of how the max() function works with lists of integers.
+        #  max() looks at the integer at index 0 when provided with multiple lists.
+        #  if the integers at index 0 are the same number for every list,
+        #  it will then look at and compare the integer at the next index
+        #
+        #  score0 is used to indicate hand rank
+        #  with 0 being lowest (high card) to 9 as highest (royal flush)...
+        #  ranks found at: https://www.cardplayer.com/rules-of-poker/hand-rankings
+        #              or  https://www.cardschat.com/poker-hands.php
+        #
+        #  score0, score1, and score2 are somewhat like score modifiers,
+        #               score1 will tell us the value of the pair or the three of a kind
+        #               if two pair: score2 will tell us the value of the lowest value pair
+        #                            or even the value of the pair when there is a full house
+        #  while score3 to score7 are initially set as the value for the cards in the hand
+        #      in the order from highest value 12 (ace) to lowest value 0 (two)
+        #
+        #  for example: if a player has no special hand like pairs or a flush,
+        #               all modifier scores will be 0
+        #               the player will have to rely on their highest card 
+        #               which will start at score3.
+        #               if any other player has even a pair (score0 = 1)
+        #               the max() function used on a list of lists of integers
+        #               will select the player with a pair...
+        #               if no player has a special hand, then the high card will be the deciding factor
+        #               if more than one player has the same high card
+        #                       then the max() function will move on to next index
+        #                       and the next highest card will be evaluated
+
 
 want to learn more about this code? 
 click the link

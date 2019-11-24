@@ -1,6 +1,7 @@
 # Python Poker
 Texas Holdem Poker made with Python
 
+youtube playlist I am making to explain this code: https://youtu.be/0_G9XElINRE
 
 
 the "cards" folder holds all of the card images
@@ -51,8 +52,3 @@ Some information about how I handled scoring:
         #                       then the max() function will move on to next index
         #                       and the next highest card will be evaluated
 
-
-want to learn more about this code? 
-click the link
-
-https://youtu.be/0_G9XElINRE

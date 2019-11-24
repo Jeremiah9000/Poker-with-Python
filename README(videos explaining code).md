@@ -37,7 +37,7 @@ Some information about how I handled scoring, since it is the most complex part 
         #               score1 will tell us the value of the pair or the three of a kind
         #               if two pair: score2 will tell us the value of the lowest value pair
         #                            or even the value of the pair when there is a full house
-        #  while score3 to score7 are initially set as the value for the cards in the hand
+        #  while score3 to score7 are initially set as the value of the five cards in the hand
         #      in the order from highest value 12 (ace) to lowest value 0 (two)
         #
         #  for example: if a player has no special hand like pairs or a flush,

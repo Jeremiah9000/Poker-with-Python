@@ -14,7 +14,7 @@ download the "cards" folder and make sure it is in the same directory where you 
 
 
 
-Some information about how I handled scoring:
+Some information about how I handled scoring, since it is the most complex part of the code IMO:
   
         #  scores for an individual player will look like:
         #  [score0, score1, score2, score3, score4, score5, score6, score7]

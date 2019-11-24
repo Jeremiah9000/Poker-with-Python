@@ -1,7 +1,17 @@
 # Python Poker
 Texas Holdem Poker made with Python
 
-download the "cards" folder and make sure it is in the same directory where you launch the .py file.
+
+
+the "cards" folder holds all of the card images
+
+there is an operating version found in the 'finished working version' folder called 'texas_holdem_poker v0.1.py'
+
+download the "cards" folder and make sure it is in the same directory where you launch the 'texas_holdem_poker v0.1.py' file.
+
+
+
+
 
 Some information about how I handled scoring:
   

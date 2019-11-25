@@ -10,7 +10,7 @@ there is an operating version found in the 'finished working version' folder cal
 
 download the "cards" folder and make sure it is in the same directory where you launch the 'texas_holdem_poker v0.1.py' file.
 
-All the other folders are modulations of all the objects/functions. This is something I should have done in the first place, but I am still learning.
+All the other files are modulations of all the objects/functions. This is something I should have done in the first place, but I am still learning.
 
 
 

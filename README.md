@@ -5,6 +5,9 @@ module dependencies: PIL
 
 ![Image description](https://i.imgur.com/xjsWugc.png)
 
+The organization of this repository and its branches is a work in progress. ihsansaktia is helping with this effort: https://github.com/ihsansaktia
+
+
 youtube playlist I am making to explain this code: https://youtu.be/0_G9XElINRE
 
 

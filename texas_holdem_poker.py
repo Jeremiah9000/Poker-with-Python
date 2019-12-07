@@ -2,8 +2,7 @@ import random
 import itertools
 from collections import Counter
 from tkinter import *
-import requests
-from PIL import ImageTk, Image
+from PIL import ImageTk, Image  #  only non_standard dependency you need to DL
 import threading
 import queue
 import time

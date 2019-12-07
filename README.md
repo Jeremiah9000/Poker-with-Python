@@ -10,11 +10,24 @@ youtube playlist I am making to explain this code: https://youtu.be/0_G9XElINRE
 
 the "cards" folder holds all of the card images
 
-there is an operating version found in the 'finished working version' folder called 'texas_holdem_poker v0.1.py'
+there is an operating version found in master branch called 'texas_holdem_poker.py'
 
 download the "cards" folder and make sure it is in the same directory where you launch the 'texas_holdem_poker v0.1.py' file.
 
 All the other files are modulations of all the objects/functions. This is something I should have done in the first place, but I am still learning.
+
+
+
+Discord: https://discord.gg/pFbdWx 
+    helped organized by Muhsin7: https://github.com/muhsin7
+
+
+
+
+
+
+
+
 
 
 

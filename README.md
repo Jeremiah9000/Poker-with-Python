@@ -1,6 +1,6 @@
 # Python Poker
 Texas Holdem Poker made with Python and TKinter
-
+module dependencies: PIL
 ![Image description](https://i.imgur.com/xjsWugc.png)
 
 youtube playlist I am making to explain this code: https://youtu.be/0_G9XElINRE

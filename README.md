@@ -48,9 +48,9 @@ Some information about how I handled scoring, since it is the most complex part 
         #               all modifier scores will be 0
         #               the player will have to rely on their highest card 
         #               which will start at score3.
-        #               if any other player has even a pair (score0 = 1)
+        #               if any other player has a pair (score0 = 1)
         #               the max() function used on a list of lists of integers
-        #               will select the player with a pair...
+        #                           will select the player with a pair...
         #               if no player has a special hand, then the high card will be the deciding factor
         #               if more than one player has the same high card
         #                       then the max() function will move on to next index

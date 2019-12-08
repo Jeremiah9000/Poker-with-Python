@@ -8,7 +8,7 @@ import queue
 import time
 
 VALUES = [
-    "TWO", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+    "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
     "Jack", "Queen", "King", "Ace"
 ]
 VALUE_NAME_MAP = dict(zip(range(12), VALUES))

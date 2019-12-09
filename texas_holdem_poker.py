@@ -7,12 +7,12 @@ import threading
 import queue
 import time
 
-VALUES = [
+VALUES = (
     "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
     "Jack", "Queen", "King", "Ace"
-]
+)
 VALUE_NAME_MAP = dict(zip(range(12), VALUES))
-SUIT_MAP = dict(zip(range(4), ["Diamonds", "Clubs", "Hearts", "Spades"]))
+SUIT_MAP = dict(zip(range(4), ("Diamonds", "Clubs", "Hearts", "Spades")))
 
 
 def main():

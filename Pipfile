@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 pillow = "*"
 tk = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.8"
